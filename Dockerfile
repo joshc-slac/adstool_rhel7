@@ -14,4 +14,4 @@ COPY RegistryAccess.cpp /ADS/AdsLib/
 
 RUN cd ADS && mkdir build && cd build && cmake .. && make
 
-RUN cd ADS
+RUN cp /ADS/build/AdsTool/AdsTool /
